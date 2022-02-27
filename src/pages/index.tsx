@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import { Meta } from '@/layout/Meta';
@@ -16,7 +17,7 @@ const Index = () => {
       }
     >
       <a href="https://github.com/Oceans-22">
-        <img
+        <Image
           src={`${router.basePath}/assets/images/snap.png`}
           alt="Nextjs starter banner"
         />
