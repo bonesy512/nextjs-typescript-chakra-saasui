@@ -4,7 +4,7 @@ import { Meta } from '@/layout/Meta';
 import banner from '@/public/assets/images/snap.png';
 import { Main } from '@/templates/Main';
 
-function Index() {
+function Index(): JSX.Element {
   return (
     <Main
       meta={
