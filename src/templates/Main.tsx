@@ -31,16 +31,16 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/about/">
+              <Link href="/portfolio/">
                 <a className="text-gray-700 hover:text-gray-900 border-none">
-                  About
+                  Portfolio
                 </a>
               </Link>
             </li>
             <li className="mr-6">
               <a
                 className="text-gray-700 hover:text-gray-900 border-none"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
+                href="https://github.com/Oceans-22"
               >
                 GitHub
               </a>
@@ -53,10 +53,10 @@ const Main = (props: IMainProps) => (
 
       <div className="py-8 text-sm text-center border-t border-gray-300">
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
-        <span role="img" aria-label="Love">
-          ♥
+        <span role="img" aria-label="Ocean">
+          🌊
         </span>{' '}
-        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
+        by <a href="https://ocn22.io.com">Oceans 22 DAO</a>
         {/*
          * PLEASE READ THIS SECTION
          * We'll really appreciate if you could have a link to our website

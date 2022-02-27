@@ -10,33 +10,34 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+          title="🌊 Oceans 22 DAO 🌊"
+          description="The Oceans 22 DAO Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      <a href="https://github.com/Oceans-22">
         <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
+          src={`${router.basePath}/assets/images/snap.png`}
           alt="Nextjs starter banner"
         />
       </a>
       <h1 className="text-2xl font-bold">
-        Boilerplate code for your Nextjs project with Tailwind CSS
+        Oceans 22 Boilerplate for Next.JS projects with Tailwind CSS &amp; Saas
+        UI.
       </h1>
       <p>
-        <span role="img" aria-label="rocket">
-          🚀
+        <span role="img" aria-label="ocean">
+          🌊
         </span>{' '}
-        Next.js Boilerplate is a starter code for your Next js project by
+        Oceans 22 Boilerplate is a starter code for your Next js project by
         putting developer experience first .{' '}
         <span role="img" aria-label="zap">
           ⚡️
         </span>{' '}
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
+        VSCode, Netlify, PostCSS, Tailwind CSS and Saas UI.
       </p>
-      <h2 className="text-lg font-semibold">Next js Boilerplate Features</h2>
+      <h2 className="text-lg font-semibold">Oceans 22 Boilerplate Features</h2>
       <p>Developer experience first:</p>
       <ul>
         <li>
@@ -55,6 +56,15 @@ const Index = () => {
           Integrate with{' '}
           <a href="https://tailwindcss.com" rel="nofollow">
             Tailwind CSS
+          </a>
+        </li>
+        <li>
+          <span role="img" aria-label="art">
+            🖥
+          </span>{' '}
+          Admin Dashboard with{' '}
+          <a href="https://saas-ui.dev" rel="nofollow">
+            Saas UI
           </a>
         </li>
         <li>
@@ -104,7 +114,7 @@ const Index = () => {
             🗂
           </span>{' '}
           VSCode configuration: Debug, Settings, Tasks and extension for
-          PostCSS, ESLint, Prettier, TypeScript
+          PostCSS, ESLint, Prettier, TypeScript, and Saas UI.
         </li>
         <li>
           <span role="img" aria-label="robot">
@@ -127,7 +137,7 @@ const Index = () => {
           <span role="img" aria-label="rainbow">
             🌈
           </span>{' '}
-          Include a FREE minimalist theme
+          Built with a Saas UI Theme
         </li>
         <li>
           <span role="img" aria-label="hundred">
@@ -157,10 +167,26 @@ const Index = () => {
           Cache busting
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">Our Stater code Philosophy</h2>
+      <h2 className="text-lg font-semibold">Our Starter code Philosophy</h2>
       <ul>
-        <li>Minimal code</li>
-        <li>SEO-friendly</li>
+        <li>
+          <span role="img" aria-label="iphone">
+            📱
+          </span>{' '}
+          Mobile Optimized
+        </li>
+        <li>
+          <span role="img" aria-label="floppydisk">
+            💾
+          </span>{' '}
+          Minimal code
+        </li>
+        <li>
+          <span role="img" aria-label="search">
+            🔎
+          </span>{' '}
+          SEO-friendly
+        </li>
         <li>
           <span role="img" aria-label="rocket">
             🚀
@@ -169,15 +195,10 @@ const Index = () => {
         </li>
       </ul>
       <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
+        Check our GitHub project for more information about our{' '}
+        <a href="https://github.com/Oceans-22">Oceans 22 Boilerplate</a>. You
+        can also browse our <a href="https://oceans22.org">Knowledgebase</a> on
+        our website to support this project.
       </p>
     </Main>
   );

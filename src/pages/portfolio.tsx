@@ -1,8 +1,8 @@
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 
-const About = () => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
+const Portfolio = () => (
+  <Main meta={<Meta title="Portfolio" description="oceans 22 portfolio" />}>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
       recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore
@@ -18,4 +18,4 @@ const About = () => (
   </Main>
 );
 
-export default About;
+export default Portfolio;

@@ -7,7 +7,7 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ['.'],
   },
-  poweredByHeader: false,
+  poweredByHeader: true,
   trailingSlash: true,
   basePath: '',
   // The starter code load resources from `public` folder with `router.basePath` in React components.
