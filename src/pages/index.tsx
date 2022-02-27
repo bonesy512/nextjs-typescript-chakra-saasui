@@ -1,12 +1,10 @@
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 import { Meta } from '@/layout/Meta';
+import banner from '@/public/assets/images/snap.png';
 import { Main } from '@/templates/Main';
 
-const Index = () => {
-  const router = useRouter();
-
+function Index() {
   return (
     <Main
       meta={
@@ -18,8 +16,11 @@ const Index = () => {
     >
       <a href="https://github.com/Oceans-22">
         <Image
-          src={`${router.basePath}/assets/images/snap.png`}
-          alt="Nextjs starter banner"
+          alt="hello world"
+          src={banner}
+          layout="intrinsic"
+          objectFit="cover"
+          quality={100}
         />
       </a>
       <h1 className="text-2xl font-bold">
@@ -203,6 +204,6 @@ const Index = () => {
       </p>
     </Main>
   );
-};
+}
 
 export default Index;
