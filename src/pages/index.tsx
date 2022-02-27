@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
 import { Meta } from '@/layout/Meta';
-import banner from '@/public/assets/images/snap.png';
 import { Main } from '@/templates/Main';
+// eslint-disable-next-line import/order
+import banner from '@/public/assets/images/snap.png';
 
 function Index(): JSX.Element {
   return (
