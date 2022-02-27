@@ -1,9 +1,5 @@
-import Image from 'next/image';
-
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
-// eslint-disable-next-line import/order
-import banner from '@/public/assets/images/snap.png';
 
 function Index(): JSX.Element {
   return (
@@ -15,15 +11,6 @@ function Index(): JSX.Element {
         />
       }
     >
-      <a href="https://github.com/Oceans-22">
-        <Image
-          alt="hello world"
-          src={banner}
-          layout="intrinsic"
-          objectFit="cover"
-          quality={100}
-        />
-      </a>
       <h1 className="text-2xl font-bold">
         Oceans 22 Boilerplate for Next.JS projects with Tailwind CSS &amp; Saas
         UI.
